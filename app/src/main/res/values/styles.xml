@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="padrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="placar" parent="padrao">
+        <item name="android:text">@string/placar_inicial</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="titulo_placar" parent="padrao">
+
+    </style>
+
+    <style name="botao_gol" parent="padrao">
+        <item name="android:text">@string/label_gol</item>
+    </style>
+
+</resources>

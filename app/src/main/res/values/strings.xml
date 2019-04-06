@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">PlacarApp</string>
+    <string name="label_titulo">Teams</string>
+    <string name="label_desenvolvido_por">Developed by Heider Lopes</string>
+    <string name="placar_inicial" translatable="false">0</string>
+    <string name="label_gol">Goal</string>
+</resources>
